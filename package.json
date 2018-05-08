@@ -1,0 +1,16 @@
+{
+  "name": "awesome-chat.com",
+  "version": "1.0.0",
+  "main": "index.html",
+  "author": "Dmitry Marov <mds3d14@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-inject": "^4.3.2",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-strip-comments": "^2.5.2"
+  }
+}

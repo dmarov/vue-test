@@ -1,2 +1,4 @@
 error_log
 node_modules
+public/*
+!public/.htaccess
