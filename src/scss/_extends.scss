@@ -1,0 +1,26 @@
+%flex-center {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+%flex-stack {
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+%screen-center {
+
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}

@@ -83,5 +83,6 @@ gulp.task('watch', _ => {
     gulp.watch('src/scss/**/*.scss', ['build-css']);
     gulp.watch('src/html/**/*.html', ['build-html']);
     gulp.watch('src/js/**/*.js', ['build-js']);
+    gulp.watch('src/images/**', ['build-images']);
 
 });
