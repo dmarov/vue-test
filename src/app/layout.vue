@@ -13,7 +13,23 @@ export default {
 
 <template>
     <div class='layout'>
-        <div class='component-left'/>
-        <div class='component-right'/>
+        <component-left/>
+        <component-right/>
     </div>
 </template>
+
+<style lang='scss' scoped>
+
+    .layout {
+        display: flex;
+    }
+
+</style>
+
+<style lang='scss'>
+
+    * {
+        border: 1px solid black;
+    }
+
+</style>
