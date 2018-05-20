@@ -16,8 +16,9 @@ export default {
             this.$modal.show(Popup, {}, {
                 width: '90%',
                 height: '90%',
-                resizable: true,
-                draggable: true,
+                classes: 'rounded',
+                //resizable: true,
+                //draggable: true,
             });
 
         }
@@ -50,5 +51,13 @@ export default {
     * {
         border: 1px solid black;
     }
+
+    .rounded {
+
+        border-radius: 30px;
+        background-color: #FFFFFF;
+    
+    }
+
 
 </style>

@@ -23,7 +23,8 @@ export default {
     .popup {
         width: 100%;
         height: 100%;
-        background-color: #000000;
+//        background-color: #000000;
+        border-radius: 30px;
     }
 
 </style>
