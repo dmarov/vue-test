@@ -27,12 +27,12 @@ gulp.task('build-html', _ => {
               return file.contents.toString('utf8')
             },
         }))
-        .pipe(htmlMin({
-            collapseWhitespace: true,
-            minifyCSS: true,
-            minifyJS: true,
-            removeComments: true,
-        }))
+        // .pipe(htmlMin({
+        //     collapseWhitespace: true,
+        //     minifyCSS: true,
+        //     minifyJS: true,
+        //     removeComments: true,
+        // }))
         .pipe(gulp.dest('public'));
 
 });
