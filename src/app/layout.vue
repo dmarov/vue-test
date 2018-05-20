@@ -13,7 +13,8 @@ export default {
 
         show() {
 
-            this.$modal.show('extra-products-popup', {}, {
+            this.$modal.show(Popup, {}, {
+                name: 'extra-products-popup',
                 width: '90%',
                 height: '90%',
                 classes: 'rounded',
@@ -34,10 +35,10 @@ export default {
             <component-right/>
         </div>
         <button @click='show()'>Open</button>
-        <!-- <modals-container/> -->
-        <modal name='extra-products-popup' width='90%' height='90%' classes='rounded'>
-            <popup/>
-        </modal>
+        <modals-container/>
+        <!-- <modal name='extra-products-popup' width='90%' height='90%' classes='rounded'> -->
+        <!--     <popup/> -->
+        <!-- </modal> -->
     </div>
 </template>
 

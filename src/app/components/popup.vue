@@ -5,6 +5,7 @@ export default {
     methods: {
         close() {
             this.$modal.hide('extra-products-popup');
+//            this.emit('close');
         }
     }
 
