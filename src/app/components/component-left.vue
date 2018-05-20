@@ -49,6 +49,6 @@ export default {
     .component-left > div {
 
         min-height: 20px;
-    
+
     }
 </style>
